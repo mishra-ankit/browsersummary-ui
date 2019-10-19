@@ -1,0 +1,62 @@
+body {
+  /* background-color: #1c2022; */
+  font-family: sans-serif;
+  /* color: white; */
+}
+
+.hidden {
+  display: none;
+}
+
+.mdl-card {
+  /* Hack to override, default is 200px */
+  min-height: 10px;
+}
+
+.site-card.mdl-card {
+  width: 100%;
+  margin: 8px;
+}
+
+/* .site-card.title {
+  color: black;
+} */
+
+/* #menu-speed {
+  margin-left: 90%;
+} */
+
+.card.mdl-card {
+  width: 45%;
+  margin: 8px;
+}
+
+.card > .menu {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: none;
+}
+
+.card:hover > .menu {
+  /* color: black; */
+  display: block;
+}
+
+.card .menu .delete {
+  float: left;
+}
+
+.card .menu .edit {
+  float: left;
+}
+section.section--center.history-item {
+  max-width: 860px;
+}
+
+section.history-item > button {
+  position: absolute;
+  z-index: 99;
+  top: 8px;
+  right: 8px;
+}
